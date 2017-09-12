@@ -1,11 +1,13 @@
 # blink-1-notifier
-Scripts used by the IFTTT blink(1) device for USB-LED notifications 
+Scripts used by the blink(1)mk2 device for USB-LED notifications (weather and cryptocurrency ticker).
 
 ## Installation
 0. Clone this repository on your local machine
 1. Download & install the latest version of Blink1Control2 from (todbot's repository)[https://github.com/todbot/blink1].
-2. Go to Event Sources and select "Add event source".
+2. Run Blink1Control2 & go to "Event Sources" and select "Add event source".
 3. Select "Add File".
-4. Point the program to the .txt files of your local clone of this repository
-5. Run the scripts continuously to keep the .txt files updated with the correct values
-
+4. Point the program to the path of the "Blink1W.txt" .txt file of your local clone of this repository (step 0).
+5. Set the check time to 15s.
+6. Repeat steps 4 and 5 for the "Blink1BTC.txt" .txt file.
+7. Set the check time to 5min.
+8. Run the UpdaterBTC and UpdaterW scripts continuously to keep the .txt files updated with the correct values
