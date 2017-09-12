@@ -8,6 +8,6 @@ Scripts used by the blink(1)mk2 device for USB-LED notifications (weather and cr
 3. Select "Add File".
 4. Point the program to the path of the "Blink1W.txt" .txt file of your local clone of this repository (step 0).
 5. Set the check time to 15s.
-6. Repeat steps 4 and 5 for the "Blink1BTC.txt" .txt file.
+6. Repeat step 4 for the "Blink1BTC.txt" .txt file.
 7. Set the check time to 5min.
 8. Run the UpdaterBTC and UpdaterW scripts continuously to keep the .txt files updated with the correct values
