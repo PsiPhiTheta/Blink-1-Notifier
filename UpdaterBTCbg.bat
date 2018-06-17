@@ -1,1 +1,0 @@
-pythonw UpdaterBTC.py
